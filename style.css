@@ -163,7 +163,7 @@
     height: 100vh ;
     width: 100vw;
     background-color: black;
-    border-top: 2px solid #dadada;
+    /* border-top: 2px solid #dadada; */
   }
   .contact-headline{
       /* margin-left: 40vw;  */
