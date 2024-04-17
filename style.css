@@ -142,7 +142,7 @@
     /* background-color: black; */
   }
   .team-content{
-    height: 300vw;
+    height: 130vw;
     width : 100vw;
     background-color: black;
     border-top: 2px solid #dadada;
@@ -401,21 +401,21 @@
       text-align: center;
     }
     .icons{
-      margin-top: 4vh;
-      margin-left: 4vh;
-      height: 20vh;
-      width: 10vh;
-      gap: 5vh;
+      margin-top: 8vw;
+      margin-left: 8vw;
+      height: 40vw;
+      width: 20vw;
+      gap: 12vw;
     }
     .links{
       margin-left: -25vw;
-      margin-top: -40vw;
+      margin-top: -45vw;
       display: flex;
       color: black;
       flex-direction: column;
       /* background-color: red;  */
       justify-content: center;
-      gap: 8vw;
+      gap: 6vw;
       white-space: nowrap;
       font-size: 2vw;
       text-decoration: none;
