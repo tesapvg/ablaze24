@@ -59,3 +59,18 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     teamshowSlide(teamcurrentIndex);
   }
+  document.addEventListener("DOMContentLoaded", function() {
+    const elements = document.querySelectorAll(".animate-on-scroll");
+    const windowHeight = window.innerHeight;
+
+    function checkScroll() {
+        elements.forEach(function(element) {
+            if (element.getBoundingClientRect().top <= windowHeight * 0.75) {
+                element.classList.add("animated");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", checkScroll);
+    checkScroll();
+});

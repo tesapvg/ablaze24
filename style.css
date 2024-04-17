@@ -9,6 +9,13 @@
     width: 100vw;
     background-color: black;
   }
+  .animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.animate-on-scroll.animated {
+    opacity: 1;
+}
   .nav{
     height: 100px;
     width: 100vw;
