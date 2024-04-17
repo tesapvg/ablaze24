@@ -75,8 +75,8 @@
   .text-logo img{
     /* height: 90px;
     width: 350px; */
-    height: 30vh;
-    width: 50vw;
+    height: 15vw;
+    width: 65vw;
     object-fit: cover;
     /* background-image: url(ablaze-logo-cropped.png); */
   }
@@ -110,8 +110,8 @@
     color: white;
   }
   .events-text-logo img{
-    height: 30vh;
-    width: 50vw;
+    height: 15vw;
+    width: 65vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -149,7 +149,7 @@
   }
   .core-team{
     margin-top: 2vw;
-    height: 150vh;
+    height: 75vw;
     width: 60vw;
     object-fit: cover;
     margin-left: 20vw;
@@ -196,6 +196,7 @@
   .contact-headline h4{
     margin-left: 40vw;
     margin-bottom: 2vw;
+    
   }
   .contact-banner p{
     font-size: 2vw;
@@ -278,7 +279,7 @@
     }
     .text-logo img{
       padding: 0vw 0vw;
-      height: 12vh;
+      height: 24vw;
       width: 80vw;
     }
     .headline p{
@@ -304,7 +305,7 @@
       /* padding-left: 15vw; */
       margin-top: 1vh;
       position: center;
-      height: 12vh;
+      height: 24vw;
       width: 80vw;
       /* object-position: center; */
     }
@@ -314,8 +315,10 @@
       text-align: center;
     }
     .events-headline h2{
-      font-size: 7vh;
-      padding-left: 12vh;
+      font-size: 14vw;
+      padding-left: 24vw;
+      /* text-align: center;
+      padding-right: 30vh; */
     }
     .events-pics{
       display: flex;
@@ -406,7 +409,7 @@
     }
     .links{
       margin-left: -25vw;
-      margin-top: -38vw;
+      margin-top: -40vw;
       display: flex;
       color: black;
       flex-direction: column;
